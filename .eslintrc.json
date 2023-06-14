@@ -20,6 +20,7 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "@typescript-eslint/no-empty-interface": "off",
         "react/react-in-jsx-scope": "off",
         "react/jsx-uses-react": "off",
         "indent": [
@@ -29,7 +30,7 @@
         "linebreak-style": 0,
         "quotes": [
             "error",
-            "single"
+            "double"
         ],
         "semi": [
             "error",
