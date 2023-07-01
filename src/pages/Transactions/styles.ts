@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const TransactionContainer = styled.main`
     width: 100%;
     max-width: 1120px;
@@ -27,6 +26,13 @@ export const TransactionsTable = styled.table`
             border-top-right-radius: 6px;
             border-bottom-right-radius: 6px;
         }
+    }
+`;
+
+export const TableContainer = styled.div`
+    @media (max-width: 768px) {
+        overflow: auto; 
+        max-width: 100%; 
     }
 `;
 
